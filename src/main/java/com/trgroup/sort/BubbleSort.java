@@ -11,7 +11,9 @@ import java.util.stream.IntStream;
 @Slf4j
 public class BubbleSort {
 
-
+    /**
+    * 1.冒泡
+    */
     //2,5,11,3,55,6,234,111,9,1
     public int[] bubbleSort(int[] inputArray) {
         int arraySize = inputArray.length;
