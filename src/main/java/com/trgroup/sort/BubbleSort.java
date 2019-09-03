@@ -15,7 +15,7 @@ public class BubbleSort {
     * 1.冒泡
     */
     //2,5,11,3,55,6,234,111,9,1
-    public int[] bubbleSort(int[] inputArray) {
+    public int[] sort(int[] inputArray) {
         int arraySize = inputArray.length;
         for (int i = 0; i < arraySize - 1; i++) {
             for (int j = 0; j < arraySize - 1 - i; j++) {

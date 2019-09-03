@@ -2,6 +2,12 @@ package com.trgroup.sort.impl;
 
 import com.trgroup.sort.ISorter;
 
+
+/**
+ *  min:O(n)
+ *  max:O(n^2)
+ *  avg:O(n^2)
+ */
 public class BubbleSorter implements ISorter {
     @Override
     public int[] sort(int[] inputArray) {
